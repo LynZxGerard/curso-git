@@ -175,8 +175,21 @@ git reflog
 *   Muestra todas las veces que se movio el head
 *   Se usa para recuperar un commit que se "elimino" para recuperar su referencia al mismo mediante su hash
 
-<br><br><br><br>
+<br><br>
+============ clone =============<br>
+git clone https://github.com/LynZxGerard/curso-git.git
+*   Clona un repositorio de github como https directo a la pc
 
+<br><br>
+============ push =============<br>
+git push origin
+*   Empuja los cambios commiteados al origin
+*   Pedira validar las credenciales de tu usuario en github
+
+         UsarToken>Github>Settings>DeveloperSettings>PersonalAccessTokens>TokenClassic
+
+
+<br><br>
 # NOTAS
 
 1. Cuando aparece un " \ No newline at end of file  (END) "
@@ -188,9 +201,9 @@ git reflog
     
 <br><br>
 3. CASES
-  Kebab case   ejemplo-de-kebab-case
-  Camel Case   ejemploDeCamelCase
-  Snake Case   ejemplo_de_un_snake_case
+*   Kebab case   ejemplo-de-kebab-case
+*   Camel Case   ejemploDeCamelCase
+*   Snake Case   ejemplo_de_un_snake_case
 	
 <br><br>
 4. MERGE
