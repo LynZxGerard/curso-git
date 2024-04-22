@@ -8,6 +8,8 @@ Este es un repositorio para el Curso de Git/Github en el que pondre en practica 
 *   mkdir repo
 *   cd repo
 *   git init
+*   touch archivo.txt
+*   code .
 <br><br>
 
   ============ CHECKOUT ============
@@ -188,6 +190,22 @@ git push origin
 
          UsarToken>Github>Settings>DeveloperSettings>PersonalAccessTokens>TokenClassic
 
+<br><br>
+============ pull =============<br>
+git pull
+*   Actualiza los archivos de la computadora para que concuerden con la version mas nueva del repositorio
+*   Hace un fetch y merge del repositorio original, descargando los archivos y actualizando los mios
+
+
+<br><br>
+============ fetch =============<br>
+git fetch
+git switch --detach origin/master	
+*   Descarga los archivos del repositorio actual y se mueve a la rama master para verla
+*   Si queremos aplicar los cambios del repositorio a nuestro pc hacer lo siguiente
+
+git switch master
+git pull
 
 <br><br>
 # NOTAS
