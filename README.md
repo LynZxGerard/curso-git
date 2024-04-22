@@ -208,6 +208,30 @@ git switch master
 git pull
 
 <br><br>
+============ remote =============<br>
+git remote add origin https://github.com/LynZxGerard/nuevo-repo.git	
+*   Es un comando que nos brinda Github para cargar un repositorio existente de nuestra pc a Github
+
+git remote -v
+*   Nos muestra los permisos que tenemos para editar el repositorio
+
+git branch -M main
+git push -u origin main
+
+*   Ahora si le hacemos algun commit a este nuevo repositorio ya que hicimos estas configuraciones
+*   Podremos ver que se migraran todos los archivos que tenemos comiteados al nuevo repositorio,
+*   migrando todos esos archivos de nuestro pc local al repositorio remoto
+
+<br><br>
+============ FORKS =============<br>
+Desde github ubicarnos en el repositorio al que le queremos hacer el fork
+*   Crear el nuevo fork
+*   Ahora podemos clonarlo con el https del repositorio nuevo en nuestro github
+*   Ahora podemos movernos al archivo nuevo y editar el fork
+*   Los cambios comiteados se veran en nuestro fork unicamente
+
+
+<br><br>
 # NOTAS
 
 1. Cuando aparece un " \ No newline at end of file  (END) "
