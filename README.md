@@ -8,6 +8,8 @@ Este es un repositorio para el Curso de Git/Github en el que pondre en practica 
 *   mkdir repo
 *   cd repo
 *   git init
+*   touch archivo.txt
+*   code .
 <br><br>
 
   ============ CHECKOUT ============
@@ -188,6 +190,50 @@ git push origin
 
          UsarToken>Github>Settings>DeveloperSettings>PersonalAccessTokens>TokenClassic
 
+<br><br>
+============ pull =============<br>
+git pull
+*   Actualiza los archivos de la computadora para que concuerden con la version mas nueva del repositorio
+*   Hace un fetch y merge del repositorio original, descargando los archivos y actualizando los mios
+
+
+<br><br>
+============ fetch =============<br>
+git fetch
+git switch --detach origin/master	
+*   Descarga los archivos del repositorio actual y se mueve a la rama master para verla
+*   Si queremos aplicar los cambios del repositorio a nuestro pc hacer lo siguiente
+
+git switch master
+git pull
+
+<br><br>
+============ remote =============<br>
+git remote add origin https://github.com/LynZxGerard/nuevo-repo.git	
+*   Es un comando que nos brinda Github para cargar un repositorio existente de nuestra pc a Github
+
+git remote -v
+*   Nos muestra los permisos que tenemos para editar el repositorio
+
+git branch -M main
+git push -u origin main
+
+*   Ahora si le hacemos algun commit a este nuevo repositorio ya que hicimos estas configuraciones
+*   Podremos ver que se migraran todos los archivos que tenemos comiteados al nuevo repositorio,
+*   migrando todos esos archivos de nuestro pc local al repositorio remoto
+
+<br><br>
+============ FORKS =============<br>
+Desde github ubicarnos en el repositorio al que le queremos hacer el fork
+*   Crear el nuevo fork
+*   Ahora podemos clonarlo con el https del repositorio nuevo en nuestro github
+*   Ahora podemos movernos al archivo nuevo y editar el fork
+*   Los cambios comiteados se veran en nuestro fork unicamente
+
+<br><br>
+============ Pull Request =============<br>
+Desde github ubicarnos en el repositorio que hicimos fork y mejoramos, Contribute>Open pull request>Create pull request
+*   Crear el nuevo fork
 
 <br><br>
 # NOTAS
@@ -227,5 +273,23 @@ git push origin
 <br><br>	
 6. .gitignore
 	al aplicar un gitignore, los cambios a ignorar solo se haran despues de hacerle commit a ese archivo, ya que los archivos que estaban antes de su creacion ya estan siendo rastreados por git por default
-        
+
+7. Issues
+        Sirven para poder hacer arreglos al codigo, varios issues conforman un Milestone
+
+8. Extras:
+*   bisect <br>
+  	Debuggea las versiones para ver cual fue el commit que hizo que dejaran de funcionar las cosas <br>
+    <br>
+*   hooks <br>
+  	Son funciones de codigo que se aplican a git para ejecutarse junto a algun comando como commit, para asegurarnos que antes de cada commit sigamos ciertas normativas. <br>
+    <br>
+*   squash <br>
+  	combinar commits en uno solo <br>
+    <br>
+*   cherry.pick <br>
+  	Decidir que a que commits hacer merge de las ramas <br>
+    <br>
+*   stash (git stash y git stash pop) <br>
+        Un apartado separado del repositorio en el que podemos almacenar cosas qhue nos estorben para poder trabajar otras y regresarlo al repositorio cuando hayamos acabado <br>
 
