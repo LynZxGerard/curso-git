@@ -1,4 +1,7 @@
-nombre = "Daniel Alejandro"
+nombre = "Daniel Aleandro"
 apellido = "Orozco Mariscal"
+codigo = "218774291"
 
-print("Adios " + nombre + " " + apellido  + " Como estas?")
+saludo = ("Hola " + nombre + " " + apellido  + ", buen dia, tu codigo es: " + codigo)
+
+print(saludo)
