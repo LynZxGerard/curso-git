@@ -278,14 +278,18 @@ Desde github ubicarnos en el repositorio que hicimos fork y mejoramos, Contribut
         Sirven para poder hacer arreglos al codigo, varios issues conforman un Milestone
 
 8. Extras:
-*   bisect
-  	Debuggea las versiones para ver cual fue el commit que hizo que dejaran de funcionar las cosas
-*   hooks
-  	Son funciones de codigo que se aplican a git para ejecutarse junto a algun comando como commit, para asegurarnos que antes de cada commit sigamos ciertas normativas.
-*   squash
-  	combinar commits en uno solo
-*   cherry.pick
-  	Decidir que a que commits hacer merge de las ramas
-*   stash (giot stash y git stash pop)
-        Un apartado separado del repositorio en el que podemos almacenar cosas qhue nos estorben para poder trabajar otras y regresarlo al repositorio cuando hayamos acabado
+*   bisect <br>
+  	Debuggea las versiones para ver cual fue el commit que hizo que dejaran de funcionar las cosas <br>
+    <br>
+*   hooks <br>
+  	Son funciones de codigo que se aplican a git para ejecutarse junto a algun comando como commit, para asegurarnos que antes de cada commit sigamos ciertas normativas. <br>
+    <br>
+*   squash <br>
+  	combinar commits en uno solo <br>
+    <br>
+*   cherry.pick <br>
+  	Decidir que a que commits hacer merge de las ramas <br>
+    <br>
+*   stash (git stash y git stash pop) <br>
+        Un apartado separado del repositorio en el que podemos almacenar cosas qhue nos estorben para poder trabajar otras y regresarlo al repositorio cuando hayamos acabado <br>
 
