@@ -230,6 +230,10 @@ Desde github ubicarnos en el repositorio al que le queremos hacer el fork
 *   Ahora podemos movernos al archivo nuevo y editar el fork
 *   Los cambios comiteados se veran en nuestro fork unicamente
 
+<br><br>
+============ Pull Request =============<br>
+Desde github ubicarnos en el repositorio que hicimos fork y mejoramos, Contribute>Open pull request>Create pull request
+*   Crear el nuevo fork
 
 <br><br>
 # NOTAS
@@ -269,5 +273,19 @@ Desde github ubicarnos en el repositorio al que le queremos hacer el fork
 <br><br>	
 6. .gitignore
 	al aplicar un gitignore, los cambios a ignorar solo se haran despues de hacerle commit a ese archivo, ya que los archivos que estaban antes de su creacion ya estan siendo rastreados por git por default
-        
+
+7. Issues
+        Sirven para poder hacer arreglos al codigo, varios issues conforman un Milestone
+
+8. Extras:
+*   bisect
+  	Debuggea las versiones para ver cual fue el commit que hizo que dejaran de funcionar las cosas
+*   hooks
+  	Son funciones de codigo que se aplican a git para ejecutarse junto a algun comando como commit, para asegurarnos que antes de cada commit sigamos ciertas normativas.
+*   squash
+  	combinar commits en uno solo
+*   cherry.pick
+  	Decidir que a que commits hacer merge de las ramas
+*   stash (giot stash y git stash pop)
+        Un apartado separado del repositorio en el que podemos almacenar cosas qhue nos estorben para poder trabajar otras y regresarlo al repositorio cuando hayamos acabado
 
